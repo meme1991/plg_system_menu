@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_SPMEGAMENU</name>
+	<creationDate>January 2017</creationDate>
+  <author>SPEDI srl</author>
+	<copyright>Copyright (C) 2013-2016 DJ-Extensions.com, All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses GNU/GPL</license>
+	<authorEmail>sviluppo@spedi.it</authorEmail>
+	<authorUrl>http://www.spedi.it</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_SPMEGAMENU_DESC</description>
+	<files>
+		<filename plugin="spmegamenu">spmegamenu.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>params</folder>
+	</files>
+</extension>
