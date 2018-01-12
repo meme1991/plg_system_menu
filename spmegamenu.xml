@@ -2,8 +2,8 @@
 <extension version="2.5" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYSTEM_SPMEGAMENU</name>
 	<creationDate>January 2017</creationDate>
-  <author>SPEDI srl</author>
-	<copyright>Copyright (C) 2013-2016 DJ-Extensions.com, All rights reserved.</copyright>
+  	<author>SPEDI srl</author>
+	<copyright>Copyright (C) SPEDI srl.</copyright>
 	<license>http://www.gnu.org/licenses GNU/GPL</license>
 	<authorEmail>sviluppo@spedi.it</authorEmail>
 	<authorUrl>http://www.spedi.it</authorUrl>
