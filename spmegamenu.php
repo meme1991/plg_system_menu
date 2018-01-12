@@ -1,12 +1,10 @@
 <?php
 /**
- * @version $Id: djmegamenu.php 49 2016-01-14 03:18:06Z szymon $
- * @package DJ-MegaMenu
- * @copyright Copyright (C) 2012 DJ-Extensions.com LTD, All rights reserved.
- * @license http://www.gnu.org/licenses GNU/GPL
- * @author url: http://dj-extensions.com
- * @author email contact@dj-extensions.com
- *
+ * @version    1.0.0
+ * @package    SPEDI megamenu
+ * @author     SPEDI srl - http://www.spedi.it
+ * @copyright  Copyright (c) Spedi srl.
+ * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  */
 
 // no direct access
