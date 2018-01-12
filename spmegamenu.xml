@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYSTEM_SPMEGAMENU</name>
-	<creationDate>January 2017</creationDate>
+	<creationDate>Gennaio 2017</creationDate>
   	<author>SPEDI srl</author>
 	<copyright>Copyright (C) SPEDI srl.</copyright>
 	<license>http://www.gnu.org/licenses GNU/GPL</license>
