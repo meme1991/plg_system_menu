@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
 	<fields name="params">
-		<fieldset name="spmegamenu" label="PLG_SPMEGAMENU_PARAMS_LABEL">
+		<fieldset name="spmegamenu" label="PLG_MEGAMENU_PARAMS_LABEL">
 
 			<field
 				name="note1"
 				type="note"
 				class="alert alert-info"
-				label="PLG_SPMEGAMENU_INFO1"
-				description="PLG_SPMEGAMENU_INFO1_DESC"
+				label="PLG_MEGAMENU_INFO1"
+				description="PLG_MEGAMENU_INFO1_DESC"
 			/>
 
 			<field
@@ -16,25 +16,25 @@
 				type="radio"
 				class="btn-group"
 				default="0"
-				label="PLG_SPMEGAMENU_SET"
-				description="PLG_SPMEGAMENU_SET_DESC"
+				label="PLG_MEGAMENU_SET"
+				description="PLG_MEGAMENU_SET_DESC"
 			>
 				<option value="1">JYES</option>
 				<option value="0">JNO</option>
 			</field>
 
-			<field
+			<!-- <field
 				name="megamenu-col"
 				type="radio"
 				class="btn-group"
 				default="0"
-				label="PLG_SPMEGAMENU_SETCOL"
-				description="PLG_SPMEGAMENU_SETCOL_DESC"
+				label="PLG_MEGAMENU_SETCOL"
+				description="PLG_MEGAMENU_SETCOL_DESC"
 				showon="megamenu-set:1"
 			>
 				<option value="1">JYES</option>
 				<option value="0">JNO</option>
-			</field>
+			</field> -->
 
 
 			<field
@@ -42,8 +42,8 @@
 				type="radio"
 				class="btn-group"
 				default="6"
-				label="PLG_SPMEGAMENU_SETCOL_ONE"
-				description="PLG_SPMEGAMENU_SETCOL_ONE_DESC"
+				label="PLG_MEGAMENU_SETCOL_ONE"
+				description="PLG_MEGAMENU_SETCOL_ONE_DESC"
 				showon="megamenu-col:1"
 			>
 				<option value="2">2</option>
@@ -56,8 +56,8 @@
 			<field
 				name="megamenu-col-one-name"
 				type="text"
-				label="PLG_SPMEGAMENU_SETCOL_ONE_NAME"
-				description="PLG_SPMEGAMENU_SETCOL_ONE_NAME_DESC"
+				label="PLG_MEGAMENU_SETCOL_ONE_NAME"
+				description="PLG_MEGAMENU_SETCOL_ONE_NAME_DESC"
 				showon="megamenu-col:1"
 			/>
 
@@ -66,8 +66,8 @@
 				type="radio"
 				class="btn-group"
 				default="6"
-				label="PLG_SPMEGAMENU_SETCOL_TWO"
-				description="PLG_SPMEGAMENU_SETCOL_TWO_DESC"
+				label="PLG_MEGAMENU_SETCOL_TWO"
+				description="PLG_MEGAMENU_SETCOL_TWO_DESC"
 				showon="megamenu-col:1"
 			>
 				<option value="2">2</option>
@@ -80,28 +80,28 @@
 			<field
 				name="megamenu-col-two-name"
 				type="text"
-				label="PLG_SPMEGAMENU_SETCOL_TWO_NAME"
-				description="PLG_SPMEGAMENU_SETCOL_TWO_NAME_DESC"
+				label="PLG_MEGAMENU_SETCOL_TWO_NAME"
+				description="PLG_MEGAMENU_SETCOL_TWO_NAME_DESC"
 				showon="megamenu-col:1"
 			/>
 
 			<field
 				name="megamenu-pos-name"
 				type="text"
-				label="PLG_SPMEGAMENU_POSITION_NAME"
-				description="PLG_SPMEGAMENU_POSITION_NAME_DESC"
+				label="PLG_MEGAMENU_POSITION_NAME"
+				description="PLG_MEGAMENU_POSITION_NAME_DESC"
 				showon="megamenu-set:1"
 			/>
 		</fieldset>
 
-		<fieldset name="featuredlink" label="PLG_SPMEGAMENU_PARAMS_FEATUREDLINK_LABEL">
+		<fieldset name="featuredlink" label="PLG_MEGAMENU_PARAMS_FEATUREDLINK_LABEL">
 			<field
 				name="linkfeatured-set"
 				type="radio"
 				class="btn-group"
 				default="0"
-				label="PLG_SPMEGAMENU_FEATUREDLINKSET"
-				description="PLG_SPMEGAMENU_FEATUREDLINKSET_DESC"
+				label="PLG_MEGAMENU_FEATUREDLINKSET"
+				description="PLG_MEGAMENU_FEATUREDLINKSET_DESC"
 			>
 				<option value="1">JYES</option>
 				<option value="0">JNO</option>
@@ -111,19 +111,19 @@
 				name="linkfeatured-color"
 				type="color"
 				default=""
-				label="PLG_SPMEGAMENU_FEATUREDLINKCOLOR"
-				description="PLG_SPMEGAMENU_FEATUREDLINKCOLOR_DESC"
+				label="PLG_MEGAMENU_FEATUREDLINKCOLOR"
+				description="PLG_MEGAMENU_FEATUREDLINKCOLOR_DESC"
 			/>
 		</fieldset>
 
-		<fieldset name="icon" label="PLG_SPMEGAMENU_PARAMS_ICON_LABEL">
+		<fieldset name="icon" label="PLG_MEGAMENU_PARAMS_ICON_LABEL">
 			<field
 				name="menu-icon-yn"
 				type="radio"
 				class="btn-group"
 				default="0"
-				label="PLG_SPMEGAMENU_ICON_SET"
-				description="PLG_SPMEGAMENU_ICON_SET_DESC"
+				label="PLG_MEGAMENU_ICON_SET"
+				description="PLG_MEGAMENU_ICON_SET_DESC"
 			>
 				<option value="1">JYES</option>
 				<option value="0">JNO</option>
@@ -132,8 +132,8 @@
 			<field
 				name="menu-icon"
 				type="text"
-				label="PLG_SPMEGAMENU_ICON_TEXT"
-				description="PLG_SPMEGAMENU_ICON_TEXT_DESC"
+				label="PLG_MEGAMENU_ICON_TEXT"
+				description="PLG_MEGAMENU_ICON_TEXT_DESC"
 				showon="menu-icon-yn:1"
 			/>
 
@@ -142,8 +142,8 @@
 				type="radio"
 				class="btn-group"
 				default="1"
-				label="PLG_SPMEGAMENU_ICON_POS_SET"
-				description="PLG_SPMEGAMENU_ICON_POS_SET_DESC"
+				label="PLG_MEGAMENU_ICON_POS_SET"
+				description="PLG_MEGAMENU_ICON_POS_SET_DESC"
 				showon="menu-icon-yn:1"
 			>
 				<option value="1">Davanti</option>
@@ -152,72 +152,72 @@
 
 		</fieldset>
 
-		<fieldset name="entrypoint" label="PLG_SPMEGAMENU_ENTRYPOINT_LABEL">
+		<fieldset name="entrypoint" label="PLG_MEGAMENU_ENTRYPOINT_LABEL">
 
 			<field
 				name="entrypoint-desc"
 				type="textarea"
-				label="PLG_SPMEGAMENU_ENTRYPOINTDESC"
-				description="PLG_SPMEGAMENU_ENTRYPOINTDESC_DESC"
+				label="PLG_MEGAMENU_ENTRYPOINTDESC"
+				description="PLG_MEGAMENU_ENTRYPOINTDESC_DESC"
 			/>
 
 			<!-- <field
 				name="entrypoint-bgcolor"
 				type="color"
 				default="#30373d"
-				label="PLG_SPMEGAMENU_ENTRYPOINT_BGCOLOR"
-				description="PLG_SPMEGAMENU_ENTRYPOINT_BGCOLOR_DESC"
+				label="PLG_MEGAMENU_ENTRYPOINT_BGCOLOR"
+				description="PLG_MEGAMENU_ENTRYPOINT_BGCOLOR_DESC"
 				showon="entrypoint-yn:1"
 			/> -->
 
 		</fieldset>
 
-		<fieldset name="accesskey" label="PLG_SPMEGAMENU_PARAMS_ACCESSKEY_LABEL">
+		<fieldset name="accesskey" label="PLG_MEGAMENU_PARAMS_ACCESSKEY_LABEL">
 			<field
 				name="accesskey-yn"
 				type="radio"
 				class="btn-group"
 				default="0"
-				label="PLG_SPMEGAMENU_ACCESSKEY_YN"
-				description="PLG_SPMEGAMENU_ACCESSKEY_YN_DESC"
+				label="PLG_MEGAMENU_ACCESSKEY_YN"
+				description="PLG_MEGAMENU_ACCESSKEY_YN_DESC"
 			>
 				<option value="1">JYES</option>
 				<option value="0">JNO</option>
 			</field>
 
-			<field name="note-accessky" type="note" class="alert alert-info" label="PLG_SPMEGAMENU_ACCESSKEY_NOTE" description="PLG_SPMEGAMENU_ACCESSKEY_NOTE_DESC" />
+			<field name="note-accessky" type="note" class="alert alert-info" label="PLG_MEGAMENU_ACCESSKEY_NOTE" description="PLG_MEGAMENU_ACCESSKEY_NOTE_DESC" />
 
 			<field
 				name="accesskey"
 				type="text"
-				label="PLG_SPMEGAMENU_ACCESSKEY"
-				description="PLG_SPMEGAMENU_ACCESSKEY_DESC"
+				label="PLG_MEGAMENU_ACCESSKEY"
+				description="PLG_MEGAMENU_ACCESSKEY_DESC"
 				showon="accesskey-yn:1"
 			/>
 		</fieldset>
 
-		<fieldset name="Layout" label="PLG_SPMEGAMENU_LAYOUT_LABEL">
-			<field name="note-layout" type="note" class="alert alert-info" label="PLG_SPMEGAMENU_LAYOUT_NOTE" description="PLG_SPMEGAMENU_LAYOUT_NOTE_DESC" />
+		<fieldset name="Layout" label="PLG_MEGAMENU_LAYOUT_LABEL">
+			<field name="note-layout" type="note" class="alert alert-info" label="PLG_MEGAMENU_LAYOUT_NOTE" description="PLG_MEGAMENU_LAYOUT_NOTE_DESC" />
 			<field
 				name="layout"
 				type="list"
 				default="1"
-				label="PLG_SPMEGAMENU_LAYOUT"
-				description="PLG_SPMEGAMENU_LAYOUT_DESC"
+				label="PLG_MEGAMENU_LAYOUT"
+				description="PLG_MEGAMENU_LAYOUT_DESC"
 			>
 				<option value="1">Card</option>
 				<option value="0">Blocchi</option>
 			</field>
 		</fieldset>
 
-		<fieldset name="attributi" label="PLG_SPMEGAMENU_ATTRIBS_LABEL">
+		<fieldset name="attributi" label="PLG_MEGAMENU_ATTRIBS_LABEL">
 			<field
 				name="delimiter"
 				type="radio"
 				default="0"
 				class="btn-group"
-				label="PLG_SPMEGAMENU_DELIMITER"
-				description="PLG_SPMEGAMENU_DELIMITER_DESC"
+				label="PLG_MEGAMENU_DELIMITER"
+				description="PLG_MEGAMENU_DELIMITER_DESC"
 			>
 				<option value="1">JYES</option>
 				<option value="0">JNO</option>
