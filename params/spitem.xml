@@ -37,7 +37,7 @@
 			</field> -->
 
 
-			<field
+			<!-- <field
 				name="megamenu-col-one"
 				type="radio"
 				class="btn-group"
@@ -83,7 +83,7 @@
 				label="PLG_MEGAMENU_SETCOL_TWO_NAME"
 				description="PLG_MEGAMENU_SETCOL_TWO_NAME_DESC"
 				showon="megamenu-col:1"
-			/>
+			/> -->
 
 			<field
 				name="megamenu-pos-name"
@@ -205,6 +205,7 @@
 				label="PLG_MEGAMENU_LAYOUT"
 				description="PLG_MEGAMENU_LAYOUT_DESC"
 			>
+				<option value="2">List</option>
 				<option value="1">Card</option>
 				<option value="0">Blocchi</option>
 			</field>
