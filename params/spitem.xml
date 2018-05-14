@@ -223,6 +223,37 @@
 				<option value="1">JYES</option>
 				<option value="0">JNO</option>
 			</field>
+
+			<field
+				name="modal"
+				type="radio"
+				default="0"
+				class="btn-group"
+				label="PLG_MEGAMENU_MODAL"
+				description="PLG_MEGAMENU_MODAL_DESC"
+			>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+
+			<field
+				name="option1"
+				type="text"
+				label="PLG_MEGAMENU_OPTION1"
+				description="PLG_MEGAMENU_OPTION1_DESC"
+				default="modal"
+				showon="modal:1"
+			/>
+
+			<field
+				name="option2"
+				type="text"
+				label="PLG_MEGAMENU_OPTION2"
+				description="PLG_MEGAMENU_OPTION2_DESC"
+				default="#exampleModal"
+				showon="modal:1"
+			/>
+
 		</fieldset>
 
 	</fields>
