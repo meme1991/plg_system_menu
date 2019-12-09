@@ -23,68 +23,6 @@
 				<option value="0">JNO</option>
 			</field>
 
-			<!-- <field
-				name="megamenu-col"
-				type="radio"
-				class="btn-group"
-				default="0"
-				label="PLG_MEGAMENU_SETCOL"
-				description="PLG_MEGAMENU_SETCOL_DESC"
-				showon="megamenu-set:1"
-			>
-				<option value="1">JYES</option>
-				<option value="0">JNO</option>
-			</field> -->
-
-
-			<!-- <field
-				name="megamenu-col-one"
-				type="radio"
-				class="btn-group"
-				default="6"
-				label="PLG_MEGAMENU_SETCOL_ONE"
-				description="PLG_MEGAMENU_SETCOL_ONE_DESC"
-				showon="megamenu-col:1"
-			>
-				<option value="2">2</option>
-				<option value="4">4</option>
-				<option value="6">6</option>
-				<option value="8">8</option>
-				<option value="10">10</option>
-			</field>
-
-			<field
-				name="megamenu-col-one-name"
-				type="text"
-				label="PLG_MEGAMENU_SETCOL_ONE_NAME"
-				description="PLG_MEGAMENU_SETCOL_ONE_NAME_DESC"
-				showon="megamenu-col:1"
-			/>
-
-			<field
-				name="megamenu-col-two"
-				type="radio"
-				class="btn-group"
-				default="6"
-				label="PLG_MEGAMENU_SETCOL_TWO"
-				description="PLG_MEGAMENU_SETCOL_TWO_DESC"
-				showon="megamenu-col:1"
-			>
-				<option value="2">2</option>
-				<option value="4">4</option>
-				<option value="6">6</option>
-				<option value="8">8</option>
-				<option value="10">10</option>
-			</field>
-
-			<field
-				name="megamenu-col-two-name"
-				type="text"
-				label="PLG_MEGAMENU_SETCOL_TWO_NAME"
-				description="PLG_MEGAMENU_SETCOL_TWO_NAME_DESC"
-				showon="megamenu-col:1"
-			/> -->
-
 			<field
 				name="megamenu-pos-name"
 				type="text"
@@ -148,6 +86,19 @@
 			>
 				<option value="1">Davanti</option>
 				<option value="0">In fondo</option>
+			</field>
+
+			<field
+				name="menu-only-icon"
+				type="radio"
+				class="btn-group"
+				default="1"
+				label="Aggregazione"
+				description="Scegli se vuoi visualizzare il testo + icona o solamente icona"
+				showon="menu-icon-yn:1"
+			>
+				<option value="1">Testo + Icona</option>
+				<option value="0">Solo icona</option>
 			</field>
 
 		</fieldset>
