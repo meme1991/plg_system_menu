@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="2.5" type="plugin" group="system" method="upgrade">
+<extension type="plugin" group="system" method="upgrade" version="5.0">
 	<name>PLG_SYSTEM_MEGAMENU</name>
 	<creationDate>Gennaio 2017</creationDate>
 	<author>SPEDI srl</author>
@@ -7,12 +7,19 @@
 	<license>GNU/GPL http://www.gnu.org/licenses</license>
 	<authorEmail>sviluppo@spedi.it</authorEmail>
 	<authorUrl>http://www.spedi.it</authorUrl>
-	<version>4.0.0</version>
+	<version>5.0.0</version>
 	<description>PLG_SYSTEM_MEGAMENU_DESC</description>
+
 	<files>
 		<filename plugin="megamenu">megamenu.php</filename>
 		<filename>index.html</filename>
-		<folder>language</folder>
+
 		<folder>params</folder>
+		<folder>language</folder>
 	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_megamenu.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.plg_system_megamenu.ini</language>
+	</languages>
 </extension>
